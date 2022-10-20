@@ -1,0 +1,19 @@
+.Chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+}
+.Chat p:nth-child(1){
+    font-size: 30px;
+    color: green;
+    padding: 10px;
+    cursor: pointer;
+}
+.Chat p:nth-child(2){
+    font-size: 30px;
+    color: red;
+    padding: 10px;
+    cursor: pointer;
+}

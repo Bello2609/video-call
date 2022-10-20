@@ -1,0 +1,38 @@
+.Video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+.Video_calling{
+    border: 2px solid red;
+    width: 100%;
+    height: 80%;
+}
+.Video_footer{
+    display: flex;
+    align-items: center;
+}
+.Video_footer p{
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.Video_footer button{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
